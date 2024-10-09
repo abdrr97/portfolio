@@ -7,28 +7,44 @@ export const DATA = {
   url: "https://cv.myapps.lol",
   location: "Forlì, Italy",
   locationLink: "https://www.google.com/maps/place/Forli",
-  description:
-    "Full Stack Engineer with 4+ years of experience crafting scalable web applications. Expertise in React.js, Next.js, and TypeScript, with a proven track record of delivering high-impact projects.",
+  description: "Developer by profession and a Teacher by heart. ❤️ , a software developer with 4 years of experience",
   summary:
-    "Innovative Full Stack Engineer with 4+ years of experience crafting scalable web applications. Expertise in React.js, Next.js, and TypeScript, with a proven track record of delivering high-impact projects. Adept at optimizing application performance and mentoring junior developers. Seeking to leverage technical prowess and problem-solving skills in a dynamic Italian tech company.",
+    `I am an expert software engineer with a focus on <b>React.js</b>, <b>Next.js</b>, <b>Zustand</b>, and <b>TypeScript</b>.,
+having experience in Node.js/MongoDB as well. I am also familiar with <b>DevOps</b> tools such
+as <b>Docker</b> and <b>Jenkins</b> for continuous> integration and delivery.
+<div>
+I am passionate about creating a high-quality product that meets the needs and
+expectations of both customers and end users and am always eager to learn in order to
+stay up-to-date with the latest trends and technologies in my field.
+</div>`,
   avatarUrl: "/me.png",
+
   skills: [
     "React.js",
     "Next.js",
     "TypeScript",
     "Node.js",
-    "Express.js",
-    "MongoDB",
-    "PostgreSQL",
+    "Rest API",
     "Tailwind CSS",
-    "Styled Components",
-    "Ant Design",
     "Zustand",
     "React Query",
     "Git",
     "Docker",
     "CI/CD",
   ],
+
+  additionalSkills: [
+    "Redis",
+    "PHP",
+    "Laravel",
+    "MySQL",
+    "Postman",
+    "MongoDB",
+    "PostgreSQL",
+    "React native",
+    "graphql",
+    ],
+
   navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
 
   contact: {
@@ -101,7 +117,7 @@ export const DATA = {
       href: "#",
       degree: "Bachelor of Science in Computer Science",
       logoUrl: "/cigma.png",
-      start: "2017",
+      start: "2019",
       end: "2020",
     },
     {
@@ -144,8 +160,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/intern.png",
+      video: "",
     },
     {
       title: "B2C Flight Booking Platform",
@@ -153,12 +169,12 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Architected and implemented a flight booking platform with Next.js and React.js, integrating with Amadeus API, and incorporating caching and load balancing features.",
+        "Architected and implemented a flight booking platform with Next.js and React.js, integrating with Amadeus API, and incorporating caching and optimization techniques.",
       technologies: ["Next.js", "React.js", "Amadeus API"],
       links: [
         {
           type: "Website",
-          href: "https://cv.myapps.lol",
+          href: "https://b2c.myapps.lol",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -167,8 +183,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/b2c-image.png",
+      video: "",
     },
     {
       title: "Multi-Tenant SaaS for Property Management",
@@ -190,8 +206,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/multi-tenant.png",
+      video: "",
     },
     {
       title: "Scalable E-Commerce Solution",
